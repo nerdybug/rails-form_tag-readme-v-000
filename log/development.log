@@ -199,3 +199,16 @@ Processing by PostsController#index as HTML
   [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
   Rendered posts/index.html.erb within layouts/application (3.2ms)
 Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts" for 23.117.64.247 at 2018-07-09 01:17:46 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 41ms (Views: 37.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 23.117.64.247 at 2018-07-09 01:17:52 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
